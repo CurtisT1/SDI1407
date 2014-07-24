@@ -1,4 +1,4 @@
-alert("Welcome Back");
+alert("javascript Works ");
 
 
 // Curtis Tate	
@@ -54,14 +54,16 @@ alert("Welcome Back");
 	console.log(warlockName + " choose " + weapon1);
 }; 
 
-console.log("The warlock arrives at the witch hideout");
-console.log("",witch1,"conjures the biggest ice ball at him. ",warlock," conjure a wall of fire and stops it, and had to quickly choose" ,weapon1," or " ,weapon2,'.');
+console.log("The warlock arrives at the witches hideout");
+console.log("",witch1," ",witch2,", and ",witch3," thought they should make this battle over before it even starts so they combine all their magically powers and energy to kill ",warlock," with one move but they did not know what he was truly capable of");  
+console.log("So they conjures everything they had at him all a once. ",warlock," uses all his magically energy to block the witches attack with a wall of flames and had to quickly choose " ,weapon1," or " ,weapon2,'.');
 console.log("",weapon1," is faster and gives " ,warlock, " more movement. ",weapon2," is heavy and drains half of his magic energy.");
-
+console.log("",warlock," chooses the ",weapon2," for more powerful magic.");
 
 //Boolean Function
 
-console.log("",warlock, " quickly conjure a force of fire over his body and went into a powerful trance to recharge.");
+console.log("",warlock, " quickly conjure a force field of fire over his body and went into a powerful trance to recharge.");
+console.log("the witches try everything to break the shield but it was impenetrable, the witches was stunt of the power he had to block every attack."); 
 
 var recharge = {
 	rechargeMethod: function(ringOfFire, beaconOfFlames){
@@ -75,7 +77,18 @@ var recharge = {
 }
 };
 
+// Function
 
+
+var chant = {
+	chanting : function (focusAfterCharge) {
+	while (chantingAfterCharged < 3) {
+		console.log(focusAfterCharge + "Chanting");
+	focusAfterCharge = focusAfterCharge + 1;
+	}
+	}
+};
+console.log("",warlock," is fully charge and ready to defeat the witches");
 
 
 
