@@ -1,19 +1,42 @@
 var json = {
-	"Warlocks": {
-			"1": { 
-			"name": "Ark",
-			"Powers": "Water"
+	"Witches": {
+			"witch1": { 
+			"name": "LadySif",
+			"Powers": "throwIceBall",
 		},	
-			"2": { 
-			"name": "Otto",
-			"Powers": "Fire"
+			"witch2": { 
+			"name": "Miff",
+			"Powers": "throwIceShards",
 	},
-			"3": { 
-			"name": "Lady Sif",
-			"Powers": "Thunder"
+			"witch3": { 
+			"name": "Tiff",
+			"Powers": "freezeBlast"
 		}
 	}
 };
 
 
 
+};
+
+
+var json2 = {
+	"witches" : [
+	{
+		"rank" : "witch1",
+		"name" : "LadySif",
+		"powers" : "throwIceBalls"
+	},
+	{
+		"rank" : "witch2",
+		"name" : "Miff",
+		"powers" : "throwIceShards"
+	},
+	{
+		"rank" : "witch3",
+		"name" : "Tiff",
+		"powers" : "freezeBlast"
+	}
+]
+};
+	

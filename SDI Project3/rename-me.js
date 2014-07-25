@@ -1,4 +1,4 @@
-alert("javascript Works ");
+// alert("javascript Works ");
 
 
 // Curtis Tate	
@@ -19,26 +19,55 @@ alert("javascript Works ");
  var spell1 = "Fire Dragon flame";
  var spell2 = "Cosmic Rain"; 
  
- 
+ console.log ("The story begins with three evil Ice witches");
  // Json Data
  
- 
- var Different = {
+ var json = {
 	"Witches": {
 			"witch1": { 
 			"name": "Lady Sif",
-			"powers": "Throw Ice Balls"
+			"powers": "throwIceBalls"
 		},	
 			"witch2": { 
 			"name": "Miff",
-			"Powers": "Throw Ice Shards"
+			"Powers": "throwIceShards"
 	},
 			"witch3": { 
 			"name": "Tiff",
-			"Powers": "Freeze things"
+			"Powers": "freezeBlast"
 		}
 	}
 };
+ 
+ 
+ var json2 = {
+	"witches" : [
+	{
+		"rank" : "witch1",
+		"name" : "LadySif",
+		"powers" : "throwIceBalls"
+	},
+	{
+		"rank" : "witch2",
+		"name" : "Miff",
+		"powers" : "throwIceShards"
+	},
+	{
+		"rank" : "witch3",
+		"name" : "Tiff",
+		"powers" : "freezeBlast"
+	}
+]
+};
+ 
+ 
+ 
+ var handleData = function (json) {
+ };
+ console.log(json);
+ handleData(json2)
+ 
+ 
 
 
 // Function
@@ -88,7 +117,18 @@ var chant = {
 	}
 	}
 };
-console.log("",warlock," is fully charge and ready to defeat the witches");
+console.log("",warlock," is fully charge and is in his Ultimate power state");
 
+
+// Conditional
+
+
+var spell1 = false;
+if(spell1 === true) {
+	console.log ("Then ",warlock," use the spell Fire Dragon Flame spell and destroy the witches with one spell");
+}else{
+console.log("warlock uses ",spell2, " and would have to conjure 4 waves to defeat the witches, It will take longer to defeat the witches but they will be defeat.");
+
+};
 
 
