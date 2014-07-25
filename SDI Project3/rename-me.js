@@ -132,3 +132,17 @@ console.log("warlock uses ",spell2, " and would have to conjure 4 waves to defea
 };
 
 
+// Loop
+
+
+var spell2 = 4;
+
+while(spell2 > 0) {
+	console.log(spell2 + " conjure waves of Cosmic Rain.");
+	spell2--;
+};
+
+console.log("And the witches is destroy.");
+
+
+console.log("After that his kingdom, honor him with more magic and then him and his kingdom live happily ever after.");
