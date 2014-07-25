@@ -20,6 +20,8 @@
  var spell2 = "Cosmic Rain"; 
  
  console.log ("The story begins with three evil Ice witches");
+ 
+ 
  // Json Data
  
  var json = {
@@ -61,6 +63,8 @@
 };
  
  
+ // Function
+ 
  
  var handleData = function (json) {
  };
@@ -89,7 +93,9 @@ console.log("So they conjures everything they had at him all a once. ",warlock,"
 console.log("",weapon1," is faster and gives " ,warlock, " more movement. ",weapon2," is heavy and drains half of his magic energy.");
 console.log("",warlock," chooses the ",weapon2," for more powerful magic.");
 
+
 //Boolean Function
+
 
 console.log("",warlock, " quickly conjure a force field of fire over his body and went into a powerful trance to recharge.");
 console.log("the witches try everything to break the shield but it was impenetrable, the witches was stunt of the power he had to block every attack."); 
