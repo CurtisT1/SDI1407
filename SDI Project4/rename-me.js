@@ -40,3 +40,13 @@ var phoneNumber = function(number) {
 		return phoneReturn};
 	
 	
+var url = function (enterUrl) {
+	var suburl = enterUrl.substr(0,8);
+	if(subUrl.contains ("http://")) {
+	return true;
+} else if (subUrl.contains("http://")) {
+	return true;
+} else 
+	return false;
+		return urlResult;
+};	
