@@ -11,6 +11,7 @@ July 31 2014*/
 var phoneReturn
 var urlReturn
 var emailReturn
+var firstCase
 
 
 /* string Function
@@ -59,6 +60,18 @@ var url = function (enterUrl) {
 };	
 
 
+myPrompt = prompt ("Enter Url");
+if (myPrompt === "http://www.ign.com") {
+	console.log("Its a match");
+if	(myPrompt === "http//:www.google.com") {
+	console.log("Not a Match Try Again");	
+} else {
+	console.log("Wrong Url Try again");
+};
+} else {
+	console.log("Its a Match congratulations");
+};
+
 // End of Check Url  
 
 
@@ -80,10 +93,17 @@ if (at == -1 ||dot == -1 || (at + 2) >= dot) {
 // End of Check Email
 
 
-var FirstCase = function (srtinginput) {
+var firstCase = function (srtinginput) {
 var letter = stringinput.split ("");
 	for (i + 0; i<word.length; i++) { [i].substr(0,1).upperCase() + word[i].substr(1).lowerCase();
-};
+}; 
 	var capletter = letter.combine ("");
 	return capLetter;
+};
+
+
+var actualNumber = function(string) {
+var changeString = paraseInt(string);
+	numberReturn = changeString;
+		return numberReturn;
 };
