@@ -1,4 +1,4 @@
-alert("JavaScript works!");
+// alert("JavaScript works!");
 
 /*Curtis Tate
 SDI 1407
@@ -12,6 +12,7 @@ var phoneReturn
 var urlReturn
 var emailReturn
 var firstCase
+var actualNunber 
 
 
 /* string Function
@@ -40,8 +41,8 @@ var phoneNumber = function(number) {
 	} else return false;
 	
 		return phoneReturn};
-	
-	
+		
+
 // End of Check PhoneNumber 
 	
 	
@@ -93,6 +94,9 @@ if (at == -1 ||dot == -1 || (at + 2) >= dot) {
 // End of Check Email
 
 
+// FirstCase Problem 
+
+
 var firstCase = function (srtinginput) {
 var letter = stringinput.split ("");
 	for (i + 0; i<word.length; i++) { [i].substr(0,1).upperCase() + word[i].substr(1).lowerCase();
@@ -102,8 +106,14 @@ var letter = stringinput.split ("");
 };
 
 
+// End of FirstCase
+
+
+// actualNumber problem 
+
+
 var actualNumber = function(string) {
-var changeString = paraseInt(string);
+var changeString = paraseInt(42);
 	numberReturn = changeString;
 		return numberReturn;
 };
