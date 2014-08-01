@@ -10,10 +10,11 @@ July 31 2014*/
 
 var phoneReturn
 var urlReturn
+var emailReturn
 
 
-// string Function
-
+/* string Function
+Check phoneNumber */
 
 var phoneNumber = function(number) {
 	var firstDash = number.charAt (3);
@@ -40,6 +41,12 @@ var phoneNumber = function(number) {
 		return phoneReturn};
 	
 	
+// End of Check PhoneNumber 
+	
+	
+// Check Url 
+	
+	
 var url = function (enterUrl) {
 	var suburl = enterUrl.substr(0,8);
 	if(subUrl.contains ("http://")) {
@@ -50,3 +57,33 @@ var url = function (enterUrl) {
 	return false;
 		return urlResult;
 };	
+
+
+// End of Check Url  
+
+
+// Check E-mail Address
+
+
+var checkemail = function(val) {
+var at = email.indexof("@"); 
+var email = val;
+var dot = email.lastaindexof(".");
+
+if (at == -1 ||dot == -1 || (at + 2) >= dot) { 
+	return false;
+} else {
+	return true;
+	}
+};
+
+// End of Check Email
+
+
+var FirstCase = function (srtinginput) {
+var letter = stringinput.split ("");
+	for (i + 0; i<word.length; i++) { [i].substr(0,1).upperCase() + word[i].substr(1).lowerCase();
+};
+	var capletter = letter.combine ("");
+	return capLetter;
+};
